@@ -33,6 +33,8 @@ function sortearAmigo() {
     const li = document.createElement("li");
     li.textContent = `El amigo secreto es: ${amigo}`;
     RESULTADO.appendChild(li);
+
+    amigos = [];
   } else {
     alert("No hay amigos cargados en la lista!");
   }
